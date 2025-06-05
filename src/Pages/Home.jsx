@@ -1,7 +1,7 @@
 import React from "react";
 import BlurText from "../Reactbits/BlurText/BlurText";
 import TiltedCard from "../Reactbits/TiltedCard/TiltedCard";
-import img from "../assets/profile.jpg";
+import img from "../assets/profilepic.png";
 import { FaGithub } from "react-icons/fa";
 import Stackscrolling from "../Components/Stackscroll";
 import { GoDownload } from "react-icons/go";
@@ -14,7 +14,7 @@ const Home = () => {
       id="home1"
     >
       {/* {"main div"} */}
-      <div className="Main flex flex-col sm:flex-col md:flex-row sm:p-10 ">
+      <div className="Main flex flex-col sm:flex-col md:flex-col lg:flex-row sm:p-10 ">
         <div className=" sm:p-10 rounded-md shadow-md flex justify-center ">
           <div className="  py-3  sm:max-w-full overflow-x-hidden  ">
             <TiltedCard

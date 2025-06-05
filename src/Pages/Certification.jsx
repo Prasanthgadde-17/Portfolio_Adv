@@ -84,7 +84,9 @@ const Certification = () => {
   return (
     <>
       <div className="border border-white/40 m-5 rounded-xl shadow text-white">
-        <h2 className="text-4xl font-semibold text-center p-8">Certificates</h2>
+        <h2 className="text-4xl font-semibold text-center p-8  hover:text-sky-300 transition-colors duration-500">
+          Certificates
+        </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-8 ">
           {Certificates.map((cert) => (
@@ -121,7 +123,7 @@ const Certification = () => {
           onClick={() => closePopup()}
         >
           <div
-            className="info text-white bg-black/50 border border-white/50 p-5 rounded-xl shadow-lg h-130 sm:h-150 w-180 m-4"
+            className="info text-white bg-black/50 border border-white/50 p-5 rounded-xl shadow-lg h-130 lg:h-180 lg:w-200 sm:h-150 w-180 m-4"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex justify-end">
@@ -133,11 +135,11 @@ const Certification = () => {
               </button>
             </div>
             <div className="mb-4 w-full  rounded-xl shadow-lg p-4 flex flex-col items-center text-center">
-              <div className="h-65 sm:h-90  w-full  flex items-center justify-center rounded-md overflow-hidden mb-4">
+              <div className="h-65 sm:h-90  lg:h-120 w-full  flex items-center justify-center rounded-md overflow-hidden mb-4">
                 <img
                   src={selectedCertificate.img}
                   alt="Certificate"
-                  className="h-full w-full object-contain"
+                  className="h-full w-full  object-contain"
                 />
               </div>
               <div className="info text-white">

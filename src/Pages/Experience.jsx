@@ -15,7 +15,7 @@ const Experience = () => {
       <div className="text-white text-3xl font-bold mt-10 text-center hover:text-sky-300 transition-colors duration-500">
         Experience
       </div>
-      <div className=" mt-5 p-2 flex flex-col sm:flex-col md:flex-row gap-5 sm:p-8 items-center sm:w-full md:w-1/3 ">
+      <div className=" mt-5 p-2 flex flex-col sm:flex-col md:flex-row gap-5 sm:p-8 items-center sm:w-full md:w-full lg:w-1/3 ">
         {Edu.map((experience, index) => (
           <div
             key={index}

@@ -42,7 +42,7 @@ const Contact = () => {
     >
       <div className="text-white text-center">
         <p className="font-light text-lg">Contact</p>
-        <h2 className="text-4xl mt-2 font-bold">Let's Connect</h2>
+        <h2 className="text-4xl mt-2 font-bold  hover:text-sky-300 transition-colors duration-500">Let's Connect</h2>
       </div>
 
       <form
