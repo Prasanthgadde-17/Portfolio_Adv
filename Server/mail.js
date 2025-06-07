@@ -5,10 +5,15 @@ const bodyParser = require("body-parser");
 require("dotenv").config();
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 8000;
 
 app.use(cors());
 app.use(bodyParser.json());
+
+app.get("/",(req,res)=>{
+res.send("server is running");
+})
+
 
 app.post("/send", async (req, res) => {
   const { name, email, subject, message } = req.body;
