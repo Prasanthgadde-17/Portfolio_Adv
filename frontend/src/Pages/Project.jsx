@@ -58,7 +58,7 @@ const Project = () => {
   return (
     <>
       <div
-        className="border border-white/40 m-15 rounded-xl shadow h-[1800px] sm:h-[1200px] md:h-[1050px]  "
+        className="border border-white/40 m-5 sm:m-10 md:sm-15 rounded-xl shadow h-[1800px] sm:h-[1200px] md:h-[1050px]  "
         id="project"
       >
         <div className="text-white font-bold mt-10  text-center">
