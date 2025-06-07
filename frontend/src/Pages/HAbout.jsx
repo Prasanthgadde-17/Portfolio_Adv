@@ -6,7 +6,7 @@ import Experience from "./Experience";
 
 const HAbout = () => {
   return (
-    <div className=" p-3 " id="about">
+    <div className=" p-6 " id="about">
       <ScrollFloat
         animationDuration={1.5}
         ease="power3.out"

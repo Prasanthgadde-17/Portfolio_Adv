@@ -58,19 +58,21 @@ const Project = () => {
   return (
     <>
       <div
-        className="border border-white/40 m-10 rounded-xl shadow h-[1800px] sm:h-[1200px] md:h-[1050px] "
+        className="border border-white/40 m-15 rounded-xl shadow h-[1800px] sm:h-[1200px] md:h-[1050px]  "
         id="project"
       >
-        <div className="text-white font-bold mt-10 text-center">
+        <div className="text-white font-bold mt-10  text-center">
           <div className="font-light text-lg">Projects</div>
-          <div className="text-4xl mt-4 hover:text-sky-300 transition-colors duration-500">What I’ve Built</div>
+          <div className="text-4xl mt-4 hover:text-sky-300 transition-colors duration-500">
+            What I’ve Built
+          </div>
           <p className="mt-5 w-full md:w-1/3 text-gray-400 mx-auto text-md px-4 ">
             From learning the basics to building full-stack applications, here
             are some of the key projects that helped me grow as a developer.
           </p>
         </div>
 
-        <div className="container mt-5 p-5  ">
+        <div className="mt-10 p-5 flex justify-center">
           <div className="relative h-[1500px] sm:h-[1000px] md:h-[700px] overflow-auto ml-3">
             <ChromaGrid
               items={items}

@@ -123,7 +123,7 @@ const Certification = () => {
           onClick={() => closePopup()}
         >
           <div
-            className="info text-white bg-black/50 border border-white/50 p-5 rounded-xl shadow-lg h-130 lg:h-180 lg:w-200 sm:h-150 w-180 m-4"
+            className="info text-white bg-black/50 border border-white/50 p-5 rounded-xl shadow-lg h-150 lg:h-180 lg:w-200 sm:h-150 w-180 m-4"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex justify-end">
