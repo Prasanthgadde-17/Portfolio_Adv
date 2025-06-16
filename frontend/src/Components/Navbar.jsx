@@ -7,7 +7,7 @@ const Navbar = () => {
     { label: "About", href: "#about" },
     { label: "Projects", href: "#project" },
     { label: "Contact", href: "#contact" },
-    { label: "Resume", href: "https://drive.google.com/file/d/1PE1_voXR15sdiAguD5whoOAE_l33nWC0/view?usp=sharing" },
+    { label: "Resume", href: "https://drive.google.com/file/d/1UEsx_NCV1CH42HGo7cAEMBDaWFcdhHM8/view?usp=sharing" },
   ];
 
   return (
