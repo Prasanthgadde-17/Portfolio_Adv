@@ -1,7 +1,7 @@
 import React from "react";
 import BlurText from "../Reactbits/BlurText/BlurText";
 import TiltedCard from "../Reactbits/TiltedCard/TiltedCard";
-import img from "../assets/profilepic.png";
+import img from "../assets/profile.jpg";
 import { FaGithub } from "react-icons/fa";
 import Stackscrolling from "../Components/Stackscroll";
 import { GoDownload } from "react-icons/go";
@@ -21,10 +21,10 @@ const Home = () => {
               loading="Lazy"
               imageSrc={img}
               altText="Profile img"
-              containerHeight="400px"
+              containerHeight="520px"
               containerWidth="350px"
-              imageHeight="300px"
-              imageWidth="300px"
+              imageHeight="500px"
+              imageWidth="330px"
               rotateAmplitude={10}
               scaleOnHover={1.1}
               showMobileWarning={false}
@@ -55,7 +55,7 @@ const Home = () => {
             </h3>
             {/* <a href="">
               <FaGithub className=" mb-10 mt-10 text-blue-300 text-2xl hover:text-white hover:scale-120 transition duration-300 " />
-            </a> */}
+            </a> */}+
             <a href="https://drive.google.com/uc?export=download&id=1UEsx_NCV1CH42HGo7cAEMBDaWFcdhHM8">
               <button className=" flex bg-gray-700 text-amber-50 mt-10 p-3 text-xl border border-gray-500 rounded-xl hover:bg-gray-500">
                 Resume <GoDownload className="mt-1 ml-3" />
