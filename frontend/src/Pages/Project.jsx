@@ -11,7 +11,7 @@ const Project = () => {
       handle: "Frontend",
       borderColor: "#6366F1",
       gradient: "linear-gradient(180deg, #6366F1, #000)",
-      url: "https://github.com/Prasanthgadde-17/shoppingsite",
+      url: "https://shoppingsite-seven.vercel.app/",
     },
     {
       image:
@@ -51,7 +51,7 @@ const Project = () => {
       handle: "Frontend Project",
       borderColor: "#D97706",
       gradient: "linear-gradient(190deg, #D97706, #000)",
-      url: "https://github.com/Prasanthgadde-17/TO-DO-",
+      url: "https://prasanthgadde-17.github.io/TO-DO-/",
     },
   ];
 
