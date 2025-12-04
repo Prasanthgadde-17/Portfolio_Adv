@@ -1,7 +1,7 @@
 import React from "react";
 import BlurText from "../Reactbits/BlurText/BlurText";
 import TiltedCard from "../Reactbits/TiltedCard/TiltedCard";
-import img from "../assets/profile.jpg";
+import img from "../assets/profile.png";
 import { FaGithub } from "react-icons/fa";
 import Stackscrolling from "../Components/Stackscroll";
 import { GoDownload } from "react-icons/go";
